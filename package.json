@@ -1,0 +1,19 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "send mail via terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mailer":"nodemon index.js"
+  },
+  "author": "aniket shetye",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "comander": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6"
+  }
+}
